@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 export default function GameEmbed() {
   const [isIframeVisible, setIframeVisible] = useState(false); // 初始状态为隐藏

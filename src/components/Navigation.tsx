@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 export default function Navigation() {
   const navItems = ['Game', 'About', 'Videos', 'Guide'];

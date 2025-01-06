@@ -1,11 +1,11 @@
-import React from 'react';
+
 import Header from './components/Header';
 import GameEmbed from './components/GameEmbed';
 import About from './components/About';
 import Videos from './components/Videos';
 import Guide from './components/Guide';
 // import Reviews from './components/Reviews';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
         <Guide />
         {/* <Reviews /> */}
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
