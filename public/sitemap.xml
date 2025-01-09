@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Homepage -->
+  <url>
+    <loc>https://gartype.info/</loc>
+    <lastmod>2025-01-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gartype.info/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gartype.info/zh"/>
+  </url>
+
+  <!-- Privacy Policy -->
+  <url>
+    <loc>https://gartype.info/privacy</loc>
+    <lastmod>2025-01-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gartype.info/privacy"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gartype.info/zh/privacy"/>
+  </url>
+
+  <!-- Terms of Service -->
+  <url>
+    <loc>https://gartype.info/terms</loc>
+    <lastmod>2025-01-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gartype.info/terms"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gartype.info/zh/terms"/>
+  </url>
+</urlset>

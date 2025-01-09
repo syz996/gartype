@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+
+# Allow static assets
+Allow: /images/
+Allow: /assets/
+Allow: /static/
+
+# Sitemap location
+Sitemap: https://gartype.info/sitemap.xml
