@@ -1,11 +1,15 @@
 
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import HomePage from './pages/HomePage';
-import PrivacyPolicy from './pages/PrivacyPolicy';
-import TermsOfService from './pages/TermsOfService';
+import HomePage from './pages/en/HomePage';
+import PrivacyPolicy from './pages/en/PrivacyPolicy';
+import TermsOfService from './pages/en/TermsOfService';
+import HomePageZh from './pages/zh/HomePage';
+import PrivacyPolicyZh from './pages/zh/PrivacyPolicy';
+import TermsOfServiceZh from './pages/zh/TermsOfService';
 import { HelmetProvider } from 'react-helmet-async';
 
-export function App() {
+function App() {
   return (
     <HelmetProvider>
       <BrowserRouter>
@@ -13,8 +17,16 @@ export function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/privacy" element={<PrivacyPolicy />} />
           <Route path="/terms" element={<TermsOfService />} />
+          <Route path="/zh" element={<HomePageZh />} />
+          <Route path="/zh/privacy" element={<PrivacyPolicyZh  />} />
+          <Route path="/zh/terms" element={<TermsOfServiceZh  />} />
         </Routes>
       </BrowserRouter>
     </HelmetProvider>
   );
 }
+
+export default App;
+
+
+

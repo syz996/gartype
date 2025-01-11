@@ -4,30 +4,51 @@
   <!-- Homepage -->
   <url>
     <loc>https://gartype.info/</loc>
-    <lastmod>2025-01-10</lastmod>
+    <lastmod>2025-01-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://gartype.info/"/>
+  </url>
+
+   <url>
+    <loc>https://gartype.info/zh</loc>
+    <lastmod>2025-01-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="zh" href="https://gartype.info/zh"/>
   </url>
 
   <!-- Privacy Policy -->
   <url>
     <loc>https://gartype.info/privacy</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-01-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://gartype.info/privacy"/>
+  </url>
+
+  <url>
+    <loc>https://gartype.info/zh/privacy</loc>
+    <lastmod>2025-01-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh" href="https://gartype.info/zh/privacy"/>
   </url>
 
   <!-- Terms of Service -->
   <url>
     <loc>https://gartype.info/terms</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-01-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://gartype.info/terms"/>
+  </url>
+
+    <url>
+    <loc>https://gartype.info/zh/terms</loc>
+    <lastmod>2025-01-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh" href="https://gartype.info/zh/terms"/>
   </url>
 </urlset>
