@@ -36,7 +36,7 @@ export function AboutSection() {
             About Gar-Type
           </h2>
           <p className="text-xl text-center text-gray-300 mb-20 max-w-3xl mx-auto">
-            Gar-Type is a free pixel art shooter game developed by Lumpy, drawing inspiration from the mysterious \"Gar\" character. This sci-fi adventure combines humor with intense action as you defend Earth from the living planet Gar's invasion. Pilot humanity's secret prototype ship and become our last hope for survival.
+            Gar-Type is a free pixel art shooter game developed by Lumpy, drawing inspiration from the mysterious "Gar" character. This sci-fi adventure combines humor with intense action as you defend Earth from the living planet Gar's invasion. Pilot humanity's secret prototype ship and become our last hope for survival.
           </p>
           <div className="grid grid-cols-2 md:grid-cols-2 gap-6">
             {aboutList.map((item, index) => (
