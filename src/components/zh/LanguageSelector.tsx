@@ -19,7 +19,7 @@ export function LanguageSelector() {
   const [isOpen, setIsOpen] = React.useState(false);
   const navigate = useNavigate();
   const changeLanguage = (code: any) => {
-    console.log(code, 'code')
+    console.log(code, 'code1111')
     navigate('/'); // 跳转到 "about" 页面
   }
 
