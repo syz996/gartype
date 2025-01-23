@@ -1,39 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Home pages in different languages -->
   <url>
-    <loc>https://gartype.info/</loc>
-    <lastmod>2025-01-21</lastmod>
+    <loc>https://gartype.info/en</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gartype.info/fr"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gartype.info/ru"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gartype.info/pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gartype.info/ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gartype.info/ko"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://gartype.info/ar"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://gartype.info/it"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gartype.info/zh"/>
+    <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
-   <url>
-    <loc>https://gartype.info/zh</loc>
-    <lastmod>2025-01-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
+  
+  <!-- Privacy Policy pages -->
   <url>
-    <loc>https://gartype.info/privacy</loc>
-    <lastmod>2025-01-21</lastmod>
-    <changefreq>daily</changefreq>
+    <loc>https://gartype.info/en/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gartype.info/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gartype.info/ru/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gartype.info/pt/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gartype.info/ja/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gartype.info/ko/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://gartype.info/ar/privacy"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://gartype.info/it/privacy"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gartype.info/zh/privacy"/>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  
+  <!-- Terms of Service pages -->
   <url>
-    <loc>https://gartype.info/zh/privacy</loc>
-    <lastmod>2025-01-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://gartype.info/terms</loc>
-    <lastmod>2025-01-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-    <url>
-    <loc>https://gartype.info/zh/terms</loc>
-    <lastmod>2025-01-21</lastmod>
-    <changefreq>daily</changefreq>
+    <loc>https://gartype.info/en/terms</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gartype.info/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gartype.info/ru/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gartype.info/pt/terms"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gartype.info/ja/terms"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://gartype.info/ko/terms"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://gartype.info/ar/terms"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://gartype.info/it/terms"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gartype.info/zh/terms"/>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 </urlset>

@@ -1,27 +1,29 @@
 
+import { useTranslation } from 'react-i18next';
 
 const videos = [
   {
     id: 'FQSPCvJDbls',
-    title: '游戏概述',
+    title: 'gameplayOverview',
   },
   {
     id: 'Ji045usI72U',
-    title: '高级策略',
+    title: 'advancedStrategies',
   },
   {
     id: 'i-9hIsEsSSo',
-    title: '提示和技巧',
+    title: 'tips&Tricks',
   },
 ];
 
 export function VideoSection() {
- 
+  const { t } = useTranslation();
+
   return (
     <section id="videos" className="py-32 bg-black relative">
       <div className="container mx-auto px-4">
         <h2 className="text-5xl font-bold text-center mb-16 bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text text-transparent">
-          视频
+          {t('video.title')}
         </h2>
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {videos.map((video) => (
@@ -36,7 +38,7 @@ export function VideoSection() {
                 />
               </div>
               <h3 className="text-xl font-medium mt-4 text-center text-gray-300">
-                {video.title}
+                {t('video.' + video.title)}
               </h3>
             </div>
           ))}

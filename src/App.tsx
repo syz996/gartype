@@ -1,32 +1,32 @@
-
-
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import HomePage from './pages/en/HomePage';
-import PrivacyPolicy from './pages/en/PrivacyPolicy';
-import TermsOfService from './pages/en/TermsOfService';
-import HomePageZh from './pages/zh/HomePage';
-import PrivacyPolicyZh from './pages/zh/PrivacyPolicy';
-import TermsOfServiceZh from './pages/zh/TermsOfService';
+import { useEffect } from 'react';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
+import MainLayout from './layouts/MainLayout';
+import { PrivacyPolicy } from './pages/PrivacyPolicy';
+import { TermsOfService } from './pages/TermsOfService';
+import { initGA } from './utils/analytics';
 import { HelmetProvider } from 'react-helmet-async';
 
 function App() {
+  const { i18n } = useTranslation();
+
+  useEffect(() => {
+    initGA();
+  }, []);
+
   return (
     <HelmetProvider>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/privacy" element={<PrivacyPolicy />} />
-          <Route path="/terms" element={<TermsOfService />} />
-          <Route path="/zh" element={<HomePageZh />} />
-          <Route path="/zh/privacy" element={<PrivacyPolicyZh  />} />
-          <Route path="/zh/terms" element={<TermsOfServiceZh  />} />
+          <Route path="/" element={<Navigate to={`/${i18n.language}`} replace />} />
+          <Route path="/:lang" element={<MainLayout />} />
+          <Route path="/:lang/privacy" element={<PrivacyPolicy />} />
+          <Route path="/:lang/terms" element={<TermsOfService />} />
         </Routes>
       </BrowserRouter>
     </HelmetProvider>
+
   );
 }
 
 export default App;
-
-
-
