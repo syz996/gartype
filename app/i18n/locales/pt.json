@@ -1,0 +1,252 @@
+{
+  "nav": {
+    "language": "Português",
+    "home": "Início",
+    "games": "Jogos",
+    "blog": "Blog",
+    "about": "Sobre"
+  },
+  "hero": {
+    "title": "Gar-Type",
+    "description": "Gar-Type é um jogo de tiro em pixel art gratuito desenvolvido por Lumpy, inspirado no misterioso personagem Gar. Este jogo de aventura de ficção científica combina humor com ação intensa enquanto os jogadores defendem a Terra da invasão do planeta vivo Gar.",
+    "playButton": "Jogar"
+  },
+  "sections": {
+    "videos": "Assistir vídeos",
+    "howToPlay": "Como jogar",
+    "faq": "Perguntas frequentes",
+    "reviews": "Avaliações"
+  },
+  "videos": {
+    "gameplay": "Visão geral do gameplay",
+    "strategies": "Estratégias avançadas",
+    "tips": "Dicas e truques",
+    "gameplayDesc": "Assista às filmagens do gameplay e veja a ação em primeira mão",
+    "strategiesDesc": "Aprenda técnicas e estratégias avançadas",
+    "tipsDesc": "Descubra dicas e truques úteis"
+  },
+  "howToPlay": {
+    "guide": {
+      "title": "Guia do jogo",
+      "items": [
+        "Comece selecionando a configuração da sua nave",
+        "Aprenda os controles básicos de movimento (WASD)",
+        "Pratique padrões de esquiva no modo treino",
+        "Complete missões tutoriais para entender mecânicas básicas"
+      ]
+    },
+    "combat": {
+      "title": "Dicas de combate",
+      "items": [
+        "Continue se movendo para evitar o fogo inimigo",
+        "Use o terreno como cobertura quando possível",
+        "Sincronize seus ataques com os padrões inimigos",
+        "Aprenda os padrões de ataque dos inimigos"
+      ]
+    },
+    "powerups": {
+      "title": "Guia de power-ups",
+      "items": [
+        "Orbes azuis: Aumento de escudo",
+        "Orbes vermelhos: Melhoria de arma",
+        "Orbes verdes: Restauração de saúde",
+        "Orbes amarelas: Carga de habilidade especial"
+      ]
+    }
+  },
+  "reviews": {
+    "review1": "Este jogo é hilário! A combinação de Garfield e shooter é realmente criativa 😂",
+    "review2": "O estilo pixelado é ótimo, parece que estou jogando um velho jogo de arcade, e a música de fundo também é muito empolgante!",
+    "review3": "O jogo é um pouco difícil, as batalhas contra os chefes são super emocionantes, mas às vezes sinto que as habilidades de teletransporte são difíceis de controlar.",
+    "review4": "Os trabalhos da Lumpy Touch são sempre tão interessantes! Espero por mais níveis.",
+    "review5": "Tem a sensação de 《R-Type》 e 《Thunder》 para jogar, nostálgico e novo, recomendado para jogadores que gostam de STG!",
+    "review6": "Bom jogo, mas um pouco difícil, você pode adicionar um modo fácil? 😂",
+    "review7": "A música me lembra os velhos jogos de arcade que eu costumava jogar quando era criança. É incrível!",
+    "review8": "A batalha contra o chefe é realmente desafiadora, especialmente no último nível, quase não consegui!",
+    "review9": "Este jogo é perfeito para fãs do Garfield! O design dos inimigos é cheio de detalhes e realmente engraçado.",
+    "review10": "O ritmo do jogo é muito rápido, é um pouco difícil começar no começo, mas depois que você se acostuma, não consegue parar!",
+    "review11": "Tente desafiar o tempo, sinto que é bem provável quebrar o recorde, ansioso pela classificação oficial!",
+    "review12": "O jogo é muito interessante, mas algumas partes da dificuldade são um pouco irracionais, espero otimizar isso."
+  },
+  "games": {
+    "title": "Jogos Populares",
+    "description": "Explore nossa coleção de jogos de arte em pixel gratuitos. Cada jogo oferece uma experiência única com gráficos de estilo retrô e mecânicas de jogo modernas.",
+    "categories": {
+      "shooter": "Tiro",
+      "rpg": "RPG",
+      "puzzle": "Quebra-cabeça"
+    },
+    "gartype": {
+      "description": "Um jogo de tiro em pixel art que combina ação intensa com humor."
+    },
+    "garquest": {
+      "description": "Uma épica aventura RPG ambientada no universo de Gar."
+    },
+    "garpuzzle": {
+      "description": "Um jogo de quebra-cabeça desafiador com um toque do mundo de Gar."
+    },
+    "rating": "Classificação",
+    "players": "Jogadores",
+    "ranked": "Classificado"
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Mantenha-se atualizado com as últimas notícias, insights e histórias do mundo do Gar-Type.",
+    "readTime": "Tempo de Leitura",
+    "author": "Autor",
+    "date": "Data"
+  },
+  "about": {
+    "title": "Sobre Nós",
+    "description": "Conheça a equipe do Gar-Type e descubra nossa missão de criar jogos de arte em pixels envolventes.",
+    "mission": {
+      "title": "Nossa Missão",
+      "description": "Criar jogos de arte em pixels imersivos que combinam a estética retrô e as mecânicas de jogo modernas para oferecer uma experiência de jogo única e memorável."
+    },
+    "values": {
+      "title": "Nossos Valores",
+      "description": "Acreditamos na criação de jogos com paixão, na construção de uma comunidade positiva e na manutenção da transparência com nossos jogadores."
+    },
+    "team": {
+      "title": "Conheça a Equipe",
+      "members": {
+        "director": {
+          "name": "Lumpy",
+          "role": "Diretor de Jogo",
+          "description": "O criador do universo Gar e o principal designer de jogos."
+        },
+        "artist": {
+          "name": "PixelArtist",
+          "role": "Diretor Artístico",
+          "description": "Responsável pelo estilo único de arte em pixels e efeitos visuais."
+        },
+        "developer": {
+          "name": "CodeMaster",
+          "role": "Desenvolvedor Principal",
+          "description": "O mago técnico das nossas mecânicas de jogo."
+        }
+      }
+    },
+    "features": {
+      "openSource": {
+        "title": "Código Aberto",
+        "description": "Acreditamos no poder da comunidade e no desenvolvimento de código aberto."
+      },
+      "pixelPerfect": {
+        "title": "Pixel Perfeito",
+        "description": "Cada pixel é criado com cuidado para alcançar uma estética retrô magnífica."
+      },
+      "community": {
+        "title": "Comunidade em Primeiro Lugar",
+        "description": "Nossos jogadores estão no centro de tudo o que fazemos."
+      }
+    }
+  },
+  "faq": {
+    "questions": {
+      "q1": "Como jogar o jogo?",
+      "q2": "Quais plataformas são suportadas?",
+      "q3": "O jogo tem modo multiplayer?",
+      "q4": "O jogo é difícil?",
+      "q5": "Existem diferentes níveis de dificuldade?",
+      "q6": "Qual é a duração do jogo?",
+      "q7": "Existem diferentes personagens jogáveis?",
+      "q8": "O jogo tem recursos de salvamento?",
+      "q9": "Existem compras no jogo?",
+      "q10": "Quais são os requisitos do sistema?"
+    },
+    "answers": {
+      "a1": "O jogo é gratuito, não requer instalação e pode ser jogado diretamente no navegador (alguns dispositivos podem precisar baixar uma versão nativa).",
+      "a2": "Atualmente suporta Windows e navegador (versão Web). Mobile (celular/tablet) e console (PS/Xbox/Switch) não são suportados.",
+      "a3": "Atualmente apenas o modo single-player é suportado, sem multiplayer local ou online.",
+      "a4": "O jogo é desafiador, especialmente em batalhas contra chefes e cenários de barragem, e requer flexibilidade. No entanto, o jogo suporta power-ups aleatórios, e o uso adequado pode reduzir a dificuldade.",
+      "a5": "Sim, o jogo oferece três níveis de dificuldade: Fácil, Normal e Difícil. Cada nível ajusta os padrões inimigos, velocidade dos projéteis e valores de dano.",
+      "a6": "Uma jogada completa leva cerca de 2-3 horas, mas com múltiplos finais e níveis secretos, o conteúdo total pode se estender para 8-10 horas.",
+      "a7": "Atualmente existem 3 naves diferentes para escolher, cada uma com habilidades e estilos de jogo únicos.",
+      "a8": "Sim, o jogo salva automaticamente seu progresso após completar cada nível. Você também pode salvar manualmente nos pontos de controle.",
+      "a9": "Não, Gar-Type é completamente gratuito sem microtransações. Todo o conteúdo está disponível desde o início.",
+      "a10": "O jogo é otimizado para rodar na maioria dos navegadores modernos. Requisitos mínimos: Navegador com suporte a WebGL, 2GB de RAM e processador dual-core."
+    }
+  },
+  "footer": {
+    "rights": "© 2024 Gar-Type. Todos os direitos reservados.",
+    "terms": "Termos de serviço",
+    "privacy": "Política de privacidade"
+  },
+  "meta": {
+    "games": {
+      "title": "Jogos Populares | Gar-Type",
+      "description": "Descubra nossa coleção de jogos grátis em estilo pixel-art. De tiro ao plataforma, encontre seu próximo jogo retrô favorito."
+    },
+    "blog": {
+      "title": "Blog | Gar-Type",
+      "description": "Leia as últimas notícias, atualizações e insights sobre o Gar-Type e nossa jornada no desenvolvimento de jogos."
+    },
+    "about": {
+      "title": "Sobre Nós | Gar-Type",
+      "description": "Conheça a equipe por trás do Gar-Type e nossa missão de criar jogos envolventes em estilo pixel-art."
+    }
+  },
+  "posts": {
+    "title1": "O background da criação do Gar-Type",
+    "excerpt1": "Vamos explorar a fundação por trás do jogo de tiro em pixels.",
+    "title2": "O charme do pixel art nos jogos modernos",
+    "excerpt2": "Investiguemos a continuidade do charme do pixel art nos video games contemporâneos.",
+    "title3": "Conquistas da comunidade em março de 2024",
+    "excerpt3": "Apresentamos os momentos mais brilhantes e as conquistas da comunidade em março de 2024."
+  },
+  "privacy": {
+    "privacy_policy": "Política de Privacidade do Gar-Type",
+    "last_updated": "Última atualização: janeiro de 2025",
+    "welcome_message": "Bem-vindo ao Gar-Type (doravante denominado 'o jogo'). O jogo respeita a privacidade dos usuários e se compromete a proteger suas informações pessoais. Por favor, leia atentamente esta Política de Privacidade para entender como coletamos, usamos e protegemos suas informações.",
+    "data_collection": "Dados que coletamos",
+    "data_collection1": "Quando você usa o jogo, podemos coletar as seguintes informações:",
+    "device_info": "Informações do dispositivo",
+    "device_info_item": "Inclui o modelo do dispositivo, o sistema operacional e o identificador único do dispositivo.",
+    "game_data": "Dados do jogo",
+    "game_data_item": "Inclui progresso no jogo, pontuação, dados da tabela de classificação, etc.",
+    "user_feedback": "Feedback dos usuários",
+    "user_feedback_item": "Se você fornecer feedback por e-mail ou fórum, podemos coletar suas informações de contato.",
+    "data_usage": "Como usamos as informações",
+    "data_usage1": "As informações que coletamos podem ser usadas para os seguintes fins:",
+    "improve_experience": "Melhorar a experiência de jogo",
+    "analytics": "Análise estatística",
+    "customer_support": "Suporte ao cliente",
+    "improve_experience_item": "Otimizar o desempenho, corrigir bugs, ajustar a dificuldade do jogo.",
+    "analytics_item": "Analisar o comportamento do usuário para melhorar o conteúdo do jogo.",
+    "customer_support_item": "Responder ao seu feedback e perguntas.",
+    "data_sharing": "Compartilhamento e divulgação de dados",
+    "data_sharing1": "Não vendemos nem alugamos suas informações pessoais. As exceções são:",
+    "legal_compliance": "Conformidade legal",
+    "business_change": "Mudança de negócios",
+    "legal_compliance_item": "Podemos divulgar suas informações quando exigido por lei ou solicitado por agências de aplicação da lei.",
+    "business_change_item": "No caso de transferência, fusão ou venda do jogo, suas informações podem ser transferidas.",
+    "third_party_services": "Serviços de terceiros",
+    "data_security": "Segurança dos dados",
+    "updates": "Atualizações da Política de Privacidade",
+    "third_party_services_item": "O jogo pode integrar serviços de terceiros (por exemplo, publicidade, ferramentas analíticas). Esses serviços podem coletar algumas informações sobre você e suas políticas de privacidade se aplicam às suas práticas de coleta de dados.",
+    "data_security_item": "Tomamos medidas razoáveis de segurança para proteger suas informações, mas observe que nenhuma transmissão pela Internet pode ser garantida como 100% segura.",
+    "updates_item": "Podemos atualizar esta Política de Privacidade periodicamente e a versão mais recente será publicada nesta página.",
+    "contact": "Se você tiver alguma dúvida, entre em contato conosco."
+  },
+  "terms": {
+    "terms_policy": "Protocolo do Usuário do Jogo Gar-Type",
+    "last_updated": "Última atualização: janeiro de 2025",
+    "welcome_message": "Bem-vindo ao Gar-Type (doravante denominado 'o Jogo'). Por favor, leia este Acordo do Usuário cuidadosamente antes de usar este jogo.",
+    "user_terms": "Termos de uso",
+    "user_terms1": "Você deve cumprir as leis e regulamentos aplicáveis.",
+    "user_terms2": "Você não pode usar o Jogo para qualquer conduta ilegal ou imprópria.",
+    "user_terms3": "Todo o conteúdo do jogo, incluindo, mas não se limitando a imagens, sons e códigos, é protegido por direitos autorais.",
+    "account_data": "Conta e dados",
+    "account_data1": "O jogo pode armazenar seu progresso no jogo e dados da tabela de classificação.",
+    "account_data2": "Não somos responsáveis por perdas causadas pela perda de dados ou erros no jogo.",
+    "disclaimer": "Isenção de responsabilidade",
+    "disclaimer1": "O jogo é fornecido como está, sem qualquer garantia de disponibilidade, livre de bugs ou adequação.",
+    "disclaimer2": "Não somos responsáveis por interrupções no serviço devido a fatores de força maior (como falhas no servidor, problemas de rede, etc.).",
+    "stop_agree": "Rescisão do acordo",
+    "stop_agree1": "Se você violar este Acordo, temos o direito de rescindir seus direitos de uso.",
+    "change_update": "Mudança e atualização",
+    "update": "Podemos modificar este Acordo a qualquer momento, e a versão mais recente será publicada nesta página.",
+    "contact": "Se você tiver alguma dúvida, entre em contato conosco."
+  }
+}

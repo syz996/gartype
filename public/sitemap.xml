@@ -1,51 +1,274 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <!-- Home pages in different languages -->
+<urlset xmlns="http://www.sitemx.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://gartype.info/en</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://gartype.info/fr"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://gartype.info/ru"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://gartype.info/pt"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://gartype.info/ja"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://gartype.info/ko"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://gartype.info/ar"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://gartype.info/it"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://gartype.info/zh"/>
-    <lastmod>2025-01-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
-  
-  <!-- Privacy Policy pages -->
   <url>
-    <loc>https://gartype.info/en/privacy</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://gartype.info/fr/privacy"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://gartype.info/ru/privacy"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://gartype.info/pt/privacy"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://gartype.info/ja/privacy"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://gartype.info/ko/privacy"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://gartype.info/ar/privacy"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://gartype.info/it/privacy"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://gartype.info/zh/privacy"/>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://gartype.info/ja</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
   </url>
-  
-  <!-- Terms of Service pages -->
+  <url>
+    <loc>https://gartype.info/ko</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/fr</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/ru</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/pt</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/ar</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/it</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/zh</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
   <url>
     <loc>https://gartype.info/en/terms</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://gartype.info/fr/terms"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://gartype.info/ru/terms"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://gartype.info/pt/terms"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://gartype.info/ja/terms"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://gartype.info/ko/terms"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://gartype.info/ar/terms"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://gartype.info/it/terms"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://gartype.info/zh/terms"/>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/ja/terms</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/ko/terms</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/fr/terms</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/ru/terms</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/pt/terms</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/ar/terms</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/it/terms</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/zh/terms</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/en/privacy</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/ja/privacy</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/ko/privacy</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/fr/privacy</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/ru/privacy</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/pt/privacy</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/ar/privacy</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/it/privacy</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/zh/privacy</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/en/games</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/ja/games</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/ko/games</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/fr/games</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/ru/games</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/pt/games</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/ar/games</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/it/games</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/zh/games</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/en/blog</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/ja/blog</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/ko/blog</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/fr/blog</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/ru/blog</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/pt/blog</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/ar/blog</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/it/blog</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/zh/blog</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/en/about</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/ja/about</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/ko/about</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/fr/about</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/ru/about</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/pt/about</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/ar/about</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/it/about</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gartype.info/zh/about</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
   </url>
 </urlset>
