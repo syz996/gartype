@@ -42,7 +42,8 @@ export function Navigation() {
             href={`/${currentLang}`} 
             className="flex items-center gap-2 hover:opacity-80 transition-opacity"
           >
-            <GameController className="h-6 w-6 text-white" />
+            {/* <GameController className="h-6 w-6 text-white" /> */}
+            <img src="logo.svg" width={48} height={16} alt="logo" />
             <span className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400">
               Gar-Type
             </span>
