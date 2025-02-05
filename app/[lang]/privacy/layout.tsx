@@ -9,18 +9,7 @@ export const metadata: Metadata = {
     languages: Object.fromEntries(
       languages.map(lang => [lang.code, `https://gartype.info/${lang.code}/privacy`])
     ),
-  },
-  openGraph: {
-    title: 'Privacy Policy | Gar-Type',
-    description: 'Privacy policy for Gar-Type game. Learn about how we collect, use, and protect your personal information.',
-    url: 'https://gartype.info/privacy',
-    type: 'website',
-  },
-  twitter: {
-    card: 'summary',
-    title: 'Privacy Policy | Gar-Type',
-    description: 'Privacy policy for Gar-Type game. Learn about how we collect, use, and protect your personal information.',
-  },
+  }
 };
 
 export default function PrivacyLayout({

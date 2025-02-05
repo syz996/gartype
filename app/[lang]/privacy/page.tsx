@@ -24,13 +24,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         languages.map(l => [l.code, `https://gartype.info/${l.code}/privacy`])
       ),
     },
-    openGraph: {
-      title: 'Privacy Policy | Gar-Type',
-      description: 'Privacy policy for Gar-Type game. Learn about how we collect, use, and protect your personal information.',
-      url: `https://gartype.info/${lang}/privacy`,
-      locale: lang,
-      type: 'website',
-    },
     robots: {
       index: true,
       follow: true,

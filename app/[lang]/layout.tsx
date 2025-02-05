@@ -8,53 +8,8 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
   metadataBase: new URL('https://gartype.info'),
-  title: {
-    template: '%s | Gar-Type',
-    default: 'Gar-Type - Free Pixel Art Shooter Game | Play Now'
-  },
+  title: 'Gar-Type',
   description: 'Play Gar-Type, a free pixel art shooter game with intense action and humor. Defend Earth from the invasion of planet Gar in this retro-style arcade shooter. Available in multiple languages.',
-  keywords: ['pixel art game', 'shooter game', 'free online game', 'arcade game', 'indie game', 'Gar-Type', 'bullet hell', 'retro game', 'browser game', 'action game', 'pixel graphics', 'indie shooter'],
-  authors: [{ name: 'Lumpy', url: 'https://gartype.info/about' }],
-  creator: 'Lumpy',
-  publisher: 'Gar-Type',
-  formatDetection: {
-    email: false,
-    address: false,
-    telephone: false,
-  },
-  verification: {
-    google: 'your-google-site-verification', // 添加Google站长验证码
-    yandex: 'your-yandex-verification', // 添加Yandex验证码
-    bing: 'your-bing-verification' // 添加Bing验证码
-  },
-  openGraph: {
-    type: 'website',
-    locale: 'en_US',
-    url: 'https://gartype.info',
-    title: 'Gar-Type - Free Pixel Art Shooter Game | Play Now',
-    description: 'Play Gar-Type, a free pixel art shooter game with intense action and humor. Defend Earth from the invasion of planet Gar in this retro-style arcade shooter.',
-    siteName: 'Gar-Type',
-    images: [{
-      url: 'https://gartype.info/og-image.jpg',
-      width: 1200,
-      height: 630,
-      alt: 'Gar-Type Game Screenshot - Pixel Art Shooter Game',
-      type: 'image/jpeg',
-    }],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Gar-Type - Free Pixel Art Shooter Game',
-    description: 'Play now! A free pixel art shooter game with intense action and humor. Available in multiple languages.',
-    images: [{
-      url: 'https://gartype.info/twitter-image.jpg',
-      alt: 'Gar-Type Game Screenshot',
-      width: 1200,
-      height: 630,
-    }],
-    creator: '@gartype',
-    site: '@gartype',
-  },
   robots: {
     index: true,
     follow: true,

@@ -16,10 +16,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const lang = params.lang;
   
   return {
-    title: {
-      template: '%s | Gar-Type',
-      default: 'Gar-Type - Free Pixel Art Shooter Game | Play Now'
-    },
+    metadataBase: new URL('https://gartype.info'),
+    title:'Gar-Type',
     description: 'Play Gar-Type, a free pixel art shooter game with intense action and humor. Defend Earth from the invasion of planet Gar in this retro-style arcade shooter.',
     alternates: {
       canonical: `https://gartype.info/${lang}`,
@@ -27,29 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         languages.map(l => [l.code, `https://gartype.info/${l.code}`])
       ),
     },
-    openGraph: {
-      title: 'Gar-Type - Free Pixel Art Shooter Game',
-      description: 'Play Gar-Type, a free pixel art shooter game with intense action and humor.',
-      url: `https://gartype.info/${lang}`,
-      siteName: 'Gar-Type',
-      locale: lang,
-      type: 'website',
-      images: [{
-        url: 'https://gartype.info/og-image.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'Gar-Type Game Screenshot',
-      }],
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title: 'Gar-Type - Free Pixel Art Shooter Game',
-      description: 'Play now! A free pixel art shooter game with intense action and humor.',
-      images: [{
-        url: 'https://gartype.info/twitter-image.jpg',
-        alt: 'Gar-Type Game Screenshot',
-      }],
-    },
+    category: 'game',
     robots: {
       index: true,
       follow: true,
