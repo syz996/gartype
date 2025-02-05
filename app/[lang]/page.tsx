@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     metadataBase: new URL('https://gartype.info'),
     title:'Gar-Type',
-    description: 'Play Gar-Type, a free pixel art shooter game with intense action and humor. Defend Earth from the invasion of planet Gar in this retro-style arcade shooter.',
+    description: 'Gar-Type is a free online shooting game, experience the exciting space shooting battle! Pilot your spaceship to fight off alien invaders and enjoy a retro pixel-style arcade shooter. No need to download, start now, challenge the highest score!',
     alternates: {
       canonical: `https://gartype.info/${lang}`,
       languages: Object.fromEntries(
