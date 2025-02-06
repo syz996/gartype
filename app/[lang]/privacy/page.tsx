@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const lang = params.lang;
   
   return {
-    title: 'Privacy Policy | Gar-Type',
+    title: 'Privacy Policy | Gar-Type | Pixel shooter game | Play online for free',
     description: `Privacy policy for Gar-Type game in ${lang}. Learn about how we collect, use, and protect your personal information.`,
     alternates: {
       canonical: `https://gartype.info/${lang}/privacy`,

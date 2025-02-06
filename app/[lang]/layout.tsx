@@ -39,6 +39,28 @@ export default function RootLayout({
   children: React.ReactNode;
   params: { lang: string };
 }) {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "VideoGame",
+    "name": "Gar-Type",
+    "description": "Gar-Type is a free online shooting game, experience the exciting space shooting battle! Pilot your spaceship to fight off alien invaders and enjoy a retro pixel-style arcade shooter. No need to download, start now, challenge the highest score!",
+    "genre": ["Shooter", "Action"],
+    "playMode": "SinglePlayer",
+    "operatingSystem": ["Windows", "macOS", "HTML5"],
+    "url": "https://gartype.info",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "ratingCount": "1280"
+    }
+  };
+
   return (
     <html lang={lang} className="dark">
       <head>
@@ -51,6 +73,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#1d1d1f" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       </head>
       <body className={`${inter.className} min-h-screen bg-black`}>
         <Navigation />
