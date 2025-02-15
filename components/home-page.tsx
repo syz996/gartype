@@ -414,7 +414,7 @@ export function HomePage({ lang }: { lang: string }) {
                   color: 'purple',
                   seed: 'IndieLover'
                 },
-              
+
               ].map((review, index) => (
                 <Card key={index} className="card-hover bg-[#0D1117] p-6 transform transition-all duration-300 hover:-translate-y-1">
                   <div className="flex items-center gap-3 mb-4">
@@ -446,6 +446,11 @@ export function HomePage({ lang }: { lang: string }) {
           <footer className="py-8 border-t border-gray-800/50">
             <div className="text-center text-gray-400">
               <p className="mb-4">{t('footer.rights')}</p>
+              <div className="flex justify-center gap-4 mb-4">
+                <Link href="https://colorblockgames.online/" className="hover:text-purple-500 transition-colors">
+                  Color Block Games
+                </Link>
+              </div>
               <div className="flex justify-center gap-4">
                 <Link href={`/${lang}/terms`} className="hover:text-purple-500 transition-colors">
                   {t('footer.terms')}

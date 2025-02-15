@@ -14,7 +14,6 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const lang = params.lang;
-  console.log(lang,'lang')
   
   return {
     metadataBase: new URL('https://gartype.info'),
